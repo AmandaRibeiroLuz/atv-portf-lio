@@ -88,7 +88,33 @@ main.works {
 main.works h1 {
     font-size: 1.5rem ;
 }
+main.works section {
+	border-bottom: 1px solid gray;
+	padding: 0 0 4vw 0;
+}
+main.works section:last-child{
+    border: none;
+}
 main.works section h2 {
-    font-size: 1rem;
-	margin: ;
+    font-size: 1.2rem;
+	margin: 2vw 0 0 0;
+	font-weight: bold;
+}
+main.works section p {
+	margin: 1.5vw 0 0 0;
+}
+main.works section p span {
+    background: #ff6464;
+	border-radius: 20px ;
+	color: white;
+	padding: 3px 10px 3px 10px;
+}
+
+/*==========================================
+                FOOTER
+============================================*/
+
+footer {
+	text-align: center;
+	margin: 2vw 0 2vw 0;
 }
