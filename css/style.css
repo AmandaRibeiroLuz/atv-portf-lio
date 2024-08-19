@@ -130,7 +130,7 @@ font-size: 2rem;
 /*font-weight: da um efeito para o texto. (bold; deixa o texto em negrito.)*/
 
 section.banner p {
-padding: 2vw 4vw 2vw 0;
+padding: 2vw 4vw 3vw 0;
 }
 /*padding: serve para daeterminar um espaço interno de um determinado elemento.*/
 
@@ -140,9 +140,36 @@ section.banner button {
     padding: 10px 10px 10px 10px;
 	border: 0;
 	font-size: 1.1rem;
+	margin: 0 1vw 2vw 0 ;
 }
 /*border: determina a borda do elemento, ou algum efeito para ela (no caso, "0" ou "none" é sem borda.), ("radius" deixa arredondada)*/
 /*background-color: determina a cor do fundo de um elemento.*/
+
+section.rt-post {
+	background-color: #edf7fa;
+	padding: 1vw 2vw 2vw 2vw;
+}
+section.rt-post h2 {
+	font-size: 1.5rem;
+	margin: 1vw 2vw 1vw 1vw;
+}
+section.rt-post ul {
+	display: flex;
+}
+section.rt-post ul li {
+	background-color: white;
+	margin: 1vw 2vw 2vw 1vw;
+	padding: 1vw 2vw 2vw 1vw;
+	border-radius: 2px;
+}
+section.rt-post ul li h3 {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 0 2vw 2vw 0;
+}
+section.rt-post ul li p {
+	margin: 0 2vw 2vw 0;
+}
 
 /*==========================================
                 FOOTER
