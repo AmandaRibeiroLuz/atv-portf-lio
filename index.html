@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Featured works</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/fdedbc4221.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
                 <li>
                     <a href="#">Blog</a>
                 </li>
-                <li class="atual">
+                <li>
                     <a href="#">Works</a>
                 </li>
                 <li>
@@ -22,53 +23,39 @@
             </ul>
         </nav>
     </header>
-    <main class="works">
-        <h1>Featured works</h1>
-        <section>
-            <h2>Designing Dashboards with usability in mind</h2>
-            <p>
-               <span>2020</span> Dashboard, User Experience Design
-            </p>
-            <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <p>
-                <img src="images/Rectangle4.png" alt="Dashboard page">
-            </p>
+    <main>
+        <section class="banner">
+            <div>
+                <h1>Hi, I am John, <br>
+                    Creative Technologist</h1>
+                <!--<br> quebra linha em um determinado tipo de texto/título.-->
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <button>Download Resume</button>
+            </div>
+            <div>
+            <img src="images/Ellipse1.png " alt="Imagem de retrato de John.">
+            </div>
+            <!--<div> cria divisões dentro da <section>, pode deixar conteúdos lado a lado usando o display: flex; no css.-->
         </section>
-        <section>
-            <h2>The Ultimate Guide to Car Maintenance</h2>
-            <p>
-                <span>2021</span> Dashboard, User Experience Design
-             </p>
-             <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-             </p>
-             <p>
-                <img src="images/Rectangle5.png" alt="Dashboard page">
-             </p>
-        </section>
-    </main>
-    <footer>
-        <nav>
+        <section class="rt-post">
+            <h2>Recent posts</h2>
             <ul>
                 <li>
-                    <a href="#"></a>
+                    <h3>Making a design system from scratch</h3>
+                    <p>12 Feb 2020 | Design, Pattern</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 </li>
                 <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
+                    <h3>Creating pixel perfect icons in Figma</h3>
+                    <p>12 Feb 2020 | Figma, Icon Design</p>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
                 </li>
             </ul>
-        </nav>
-        <p>
-            Copyright &copy; 2020 All rights reserved 
-        </p>
-    </footer>
+        </section>
+    </main>
 </body>
 </html>
