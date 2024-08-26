@@ -170,14 +170,42 @@ section.rt-post ul li h3 {
 section.rt-post ul li p {
 	margin: 0 2vw 2vw 0;
 }
-
+section.ft-works h2 {
+	font-size: 1.5rem;
+	margin: 6vw 2vw 3vw 2vw;
+}
+section.ft-works ul {
+	display: flex;
+	margin: 1vw 2vw 1vw 2vw;
+}
+section.ft-works ul li {
+	border-radius: 3px;
+}
+section.ft-works ul li h3 {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 2vw 2vw 2vw 0;
+} 
+section.ft-works ul li p {
+	margin: 2vw 5vw 2vw 0; 
+}
+section.ft-works ul li p span {
+	background: #142850;
+	border-radius: 20px ;
+	color: white;
+	padding: 3px 10px 3px 10px;
+	font-weight: bold;
+}
+section.ft-works ul li p.categories {
+	color: grey;
+}
 /*==========================================
                 FOOTER
 ============================================*/
 
 footer {
 	text-align: center;
-	margin: 2vw 0 2vw 0;
+	margin: 10vw 0 2vw 0;
 }
 footer ul {
 	display: flex;
