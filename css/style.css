@@ -121,13 +121,14 @@ main section.banner {
 	display: flex;
 	margin: 10vw 0 1vw 0;
 }
-/*display: flex; deiza um elemento ao lado do outro*/
+/*display: flex; deixa um elemento ao lado do outro*/
 
 section.banner h1 {
 font-weight: bold;
 font-size: 2rem;
 }
 /*font-weight: da um efeito para o texto. (bold; deixa o texto em negrito.)*/
+/*font-size: determina o tamanho da fonte.*/
 
 section.banner p {
 padding: 2vw 4vw 3vw 0;
